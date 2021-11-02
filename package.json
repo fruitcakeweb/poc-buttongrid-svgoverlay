@@ -1,0 +1,14 @@
+{
+  "name": "fruwo-poc-illustratedblendmodes",
+  "version": "1.0.0",
+  "devDependencies": {
+    "autoprefixer": "^10",
+    "bootstrap": "latest",
+    "postcss": "^8",
+    "postcss-cli": "^8",
+    "node-sass": "^5"
+  },
+  "scripts": {
+    "scss:build": "node-sass --no-map assets/scss/main.scss | postcss -u autoprefixer -o public/css/main.css"
+  }
+}

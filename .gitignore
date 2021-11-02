@@ -1,0 +1,45 @@
+syntax: glob
+
+# Packages #
+*.7z
+*.dmg
+*.gz
+*.bz2
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.tgz
+
+# IDEA
+.idea
+
+# Logs #
+*.log
+
+# OS generated files #
+**.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+._*
+
+# SASS #
+*.map
+
+# NPM #
+node_modules
+
+# Translation
+*.mo
+
+# Composer #
+composer.phar
+vendor
+
+# Compiled Files and Build Dirs #
+public/css
+public/js
+public/fonts
+admin
